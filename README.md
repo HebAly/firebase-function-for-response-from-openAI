@@ -25,3 +25,10 @@ This repository contains backend Firebase functions to enable an AI assistant po
 ```bash
 git clone https://github.com/your-username/firebase-function-for-response-from-openAI.git
 cd firebase-function-for-response-from-openAI
+
+---
+
+### 3. Install Dependencies 
+```bash
+npm install
+
