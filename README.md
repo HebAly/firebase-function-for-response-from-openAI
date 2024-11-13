@@ -1,7 +1,7 @@
 # Firebase Function for Response from OpenAI
 
 This repository contains backend Firebase functions to enable an AI assistant powered by OpenAI GPT. The functions handle message storage and generate AI responses for participants. 
-You can find the Frontend that match with this function here. 
+You can find the Frontend that matches with this function here. 
 
 ---
 
