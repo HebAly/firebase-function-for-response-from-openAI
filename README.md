@@ -1,6 +1,7 @@
 # Firebase Function for Response from OpenAI
 
-This repository contains backend Firebase functions to enable an AI assistant powered by OpenAI GPT. The functions handle message storage and generate AI responses for participants.
+This repository contains backend Firebase functions to enable an AI assistant powered by OpenAI GPT. The functions handle message storage and generate AI responses for participants. 
+You can find the Frontend that match with this function here. 
 
 ---
 
@@ -76,3 +77,26 @@ For Example (Replace your-firebase-cloud-functions-url with the actual URL of yo
 curl -X GET "https://your-firebase-cloud-functions-url/addpostrespondmessage?text=Hello&pid=participant123"
 
 ```
+
+---
+
+## Function Details
+
+### 1. addpostrespondmessage
+
+This function handles storing user messages and enforces the message limit.
+
+#### Method: GET
+#### Query Parameters:
+ text: The message text.
+ pid: The Participant ID.
+
+### 2. getAIResponse
+
+This function is triggered when a new message is added to the database. It sends the conversation history to OpenAI and stores the response.
+
+---
+
+# Contributing
+
+We welcome contributions! If you have suggestions or issues, feel free to open an issue or create a pull request.
